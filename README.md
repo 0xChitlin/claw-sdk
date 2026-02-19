@@ -1,5 +1,9 @@
 # @claw/sdk
 
+[![npm version](https://img.shields.io/npm/v/@claw/sdk?color=blue&label=%40claw%2Fsdk)](https://www.npmjs.com/package/@claw/sdk)
+[![npm downloads](https://img.shields.io/npm/dm/@claw/sdk)](https://www.npmjs.com/package/@claw/sdk)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 TypeScript SDK for ClawWallet — ERC-8004 agent identity, skills, wallet factory, and dividends on Abstract Chain.
 
 ## Install
