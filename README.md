@@ -1,7 +1,7 @@
-# @claw/sdk
+# clawwallet-sdk
 
-[![npm version](https://img.shields.io/npm/v/@claw/sdk?color=blue&label=%40claw%2Fsdk)](https://www.npmjs.com/package/@claw/sdk)
-[![npm downloads](https://img.shields.io/npm/dm/@claw/sdk)](https://www.npmjs.com/package/@claw/sdk)
+[![npm version](https://img.shields.io/npm/v/clawwallet-sdk?color=blue&label=%40claw%2Fsdk)](https://www.npmjs.com/package/clawwallet-sdk)
+[![npm downloads](https://img.shields.io/npm/dm/clawwallet-sdk)](https://www.npmjs.com/package/clawwallet-sdk)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 TypeScript SDK for ClawWallet — ERC-8004 agent identity, skills, wallet factory, and dividends on Abstract Chain.
@@ -9,14 +9,14 @@ TypeScript SDK for ClawWallet — ERC-8004 agent identity, skills, wallet factor
 ## Install
 
 ```bash
-npm install @claw/sdk viem
+npm install clawwallet-sdk viem
 ```
 
 ## Quick Start
 
 ```ts
 import { createPublicClient, createWalletClient, http, privateKeyToAccount } from 'viem'
-import { abstractMainnet, registerAgent, getAgentByName, installSkill } from '@claw/sdk'
+import { abstractMainnet, registerAgent, getAgentByName, installSkill } from 'clawwallet-sdk'
 
 const publicClient = createPublicClient({
   chain: abstractMainnet,
@@ -83,13 +83,13 @@ await installSkill(walletClient, '0x...skillAddress')
 ### Chains
 
 ```ts
-import { abstractMainnet, abstractTestnet } from '@claw/sdk'
+import { abstractMainnet, abstractTestnet } from 'clawwallet-sdk'
 ```
 
 ### Addresses
 
 ```ts
-import { getAddresses } from '@claw/sdk'
+import { getAddresses } from 'clawwallet-sdk'
 const addrs = getAddresses(2741) // Abstract Mainnet
 ```
 

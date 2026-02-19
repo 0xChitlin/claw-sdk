@@ -1,7 +1,7 @@
 {
-  "name": "@claw/sdk",
+  "name": "clawwallet-sdk",
   "version": "0.1.0",
-  "description": "ClawWallet SDK — ERC-8004 identity, skills, and agent wallets on Abstract Chain",
+  "description": "ClawWallet SDK \u2014 ERC-8004 identity, skills, and agent wallets on Abstract Chain",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "exports": {
